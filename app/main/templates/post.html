@@ -1,0 +1,86 @@
+{% extends "main_base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% import  "_macro_comments.html" as macros %}
+
+
+{% block myhead %}
+    <h1 class="page-header col-md-offset-2">{{ post.title }}</h1>
+{% endblock %}
+
+
+{% block passage %}
+
+    <div class="col-md-offset-2 col-md-6">
+        <div>
+            <span><label class="label label-primary">Author</label> <a href="{{ url_for('main.user',username=post.author.nickname) }}">{{ post.author.nickname }}</a></span>
+            <span><label class="label label-primary">PostDate</label> {{ moment(post.timestamp).fromNow(refresh=True) }}</span>
+        </div>
+        <hr/>
+        <div>
+            {% if post.body_html %}
+                {{ post.body_html |safe }}
+            {% else %}
+                {{ post.body }}
+            {% endif %}
+        </div>
+        <hr/>
+        <h3 id="comments">Comments</h3>
+        {% if current_user.have_permission(Permission.COMMENT) %}
+            <div class="comment-form">
+                {{ wtf.quick_form(form) }}
+            </div>
+        {% endif %}
+
+        <ul class="comments">
+            {% for comment in comments %}
+                <li class="comment">
+                    <div class="comment-thumbnail"><img class="img-rounded"
+                                                        src="{{ comment.author.get_img_url_prefix()+comment.author.img_url_postfix }}"
+                                                        width="40" height="40"/></div>
+                    <div class="comment-content">
+                        <div class="comment-author"><a
+                                href="{{ url_for('main.user',username=comment.author.nickname) }}">{{ comment.author.nickname }}</a>
+                        </div>
+
+
+                        <div class="comment-body">
+                            {% if not comment.disabled %}
+                                {% if comment.body_html %}
+                                    {{ comment.body_html |safe }}
+                                {% else %}
+                                    {{ comment.body }}
+                                {% endif %}
+                            {% else %}
+                                <p class="text-muted">This comment has been banned!</p>
+                            {% endif %}
+                        </div>
+
+                        <div class="comment-date">{{ comment.timestamp }}</div>
+
+                        {% if current_user.have_permission(Permission.MANAGE_COMMENT) %}
+                            <div class="comment-manage">
+                                {% if not comment.disabled %}
+                                    <a href="{{ url_for('main.disable_comment',id=comment.id) }}"
+                                       class="btn btn-danger">Disable this comment</a>
+                                {% else %}
+                                    <a href="{{ url_for('main.enable_comment',id=comment.id) }}"
+                                       class="btn btn-success">Enable this comment</a>
+                                {% endif %}
+                            </div>
+                        {% endif %}
+
+                    </div>
+                </li>
+            {% endfor %}
+        </ul>
+
+        {% if pagination %}
+            <div class="pagination">
+                {{ macros.pagination_widget(pagination,'main.post',id=post.id) }}
+            </div>
+        {% endif %}
+    </div>
+
+{% endblock %}
+
+

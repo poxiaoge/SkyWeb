@@ -1,0 +1,5 @@
+<h1>New Email Confirm</h1>
+<p class="lead">
+    Hello,{{ name }} !Please click the following link to confirm your new email.Then you will become confirmed status!
+</p>
+<a href="{{ url_for('auth.new_email_confirm',token=token,_external=True) }}">confirm new mail</a>

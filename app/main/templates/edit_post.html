@@ -1,0 +1,26 @@
+{% extends "main_base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block myhead %}
+<h1 class="page-header col-md-offset-2">
+    Edit Post
+</h1>
+{% endblock %}
+
+{% block passage %}
+
+    <form class="form form-control-feedback" action="{{ url_for('main.set_icon',id=id) }}" method="post" enctype="multipart/form-data">
+        <input type="file" name="head-image" />
+    </form>
+
+
+<div class="col-md-offset-2 col-md-7">
+    {{ wtf.quick_form(form) }}
+</div>
+
+{% block scripts %}
+{{ super() }}
+{{ pagedown.include_pagedown() }}
+{% endblock %}
+
+{% endblock %}

@@ -1,0 +1,9 @@
+Hello,{{ name }}!
+Please click the following link to confirm your account.
+{{url_for('auth.confirm',token=token,_external=True)}}
+
+Sincerely,
+
+The Skylake Team
+
+Note:Do not reply to this email.

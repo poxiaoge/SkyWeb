@@ -1,0 +1,5 @@
+<h1>Old Email Confirm</h1>
+<p class="lead">
+    Hello,{{ name }} !Please click the following link to change your email.Then you will become unconfirmed status!
+</p>
+<a href="{{ url_for('auth.old_email_confirm',token=token,_external=True) }}">confirm old mail</a>

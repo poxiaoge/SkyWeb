@@ -1,0 +1,63 @@
+{% extends "bootstrap/base.html" %}
+
+{% block head %}
+{{super()}}
+<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    {{ pagedown.html_head() }}
+    {{ moment.include_moment() }}
+{% endblock %}
+
+{% block body %}
+
+
+
+<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#menu1">
+                <span class="sr-only">responsive</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="{{url_for('main.index')}}">Home</a>
+        </div>
+        <div class="collapse navbar-collapse" id="menu1">
+            <ul class="nav navbar-nav">
+                <li><a href="javascript:">sports</a></li>
+                <li><a href="javascript:">game</a> </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                {% if current_user.is_authenticated %}
+                <li><a href="{{ url_for('main.user',username=current_user.nickname) }}">AboutMe</a> </li>
+                <li><a href="{{ url_for('auth.logout') }}">Logout</a> </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:">
+                        Setings
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+
+                        {% if current_user.confirmed %}
+                        <li><a href="{{ url_for('auth.change_password') }}">ChangePassword</a> </li>
+                        <li><a href="{{ url_for('auth.reset_password') }}">ResetPassword</a> </li>
+                        <li><a href="{{ url_for('auth.change_email') }}">ChangeEmail</a> </li>
+
+                        {% else %}
+                            <li><a href="{{ url_for('auth.resend_confirmation') }}">ResendConfirmationEmail</a> </li>
+                        {% endif %}
+
+                    </ul>
+                </li>
+                {% else %}
+                <li><a href="{{ url_for('auth.login') }}">Login</a></li>
+                <li><a href="{{ url_for('auth.reset_password') }}">ResetPassword</a> </li>
+                {% endif %}
+            </ul>
+        </div>
+    </div>
+</nav>
+ {% endblock %}
+

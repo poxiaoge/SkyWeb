@@ -1,0 +1,11 @@
+{% extends "forms_base.html" %}
+
+
+{% block alter1 %}
+
+    <img class="img-rounded" src="{{ user.get_img_url_prefix()+user.img_url_postfix }}"  />
+    <form class="form" action="{{ url_for('main.set_icon',id=user.id,_external=True) }}" method="post" enctype="multipart/form-data">
+        <input type="file" name="head-img" accept="image/*" />
+        <input type="submit" value="Submit"/>
+    </form>
+{% endblock %}
