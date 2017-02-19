@@ -2,85 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac82077d-e4eb-4540-bd86-622a24ae0fe1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/main/static/thumbnail/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/main/static/thumbnail/default.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/MyWeb.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/jing.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/api_1_0/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/api_1_0/authentication.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/api_1_0/comments.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/api_1_0/decorators.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/api_1_0/errors.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/api_1_0/posts.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/api_1_0/users.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/auth/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/auth/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/auth/templates/auth_base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/auth/templates/change_email.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/auth/templates/change_password.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/auth/templates/email/confirm.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/auth/templates/email/confirm.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/auth/templates/email/new_email_confirm.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/auth/templates/email/new_email_confirm.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/auth/templates/email/old_email_confirm.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/auth/templates/email/old_email_confirm.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/auth/templates/email/reset_password.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/auth/templates/email/reset_password.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/auth/templates/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/auth/templates/register.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/auth/templates/reset_password.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/auth/templates/unconfirmed.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/auth/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/decorators.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/email.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/exceptions.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/main/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/main/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/main/static/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/main/templates/_macro_comments.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/main/templates/_pages.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/main/templates/_posts.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/main/templates/edit_post.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/main/templates/edit_profile.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/main/templates/followers.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/main/templates/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/main/templates/main_base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/main/templates/post.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/main/templates/user_msg.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/main/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/forms_base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/info_base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/mybase.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/access.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/error.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/migrations/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/migrations/alembic.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/migrations/env.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/migrations/script.py.mako" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/migrations/versions/0b87d3c92a33_role_add_permissions.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/migrations/versions/19bc045cf451_add_follow.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/migrations/versions/29d2bd0b51d5_add_user_confirmed.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/migrations/versions/39f56d01e374_add_img_url.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/migrations/versions/4429e2e95413_init_db.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/migrations/versions/49f2d1c20971_add_model_role.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/migrations/versions/7477440eda65_add_post.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/migrations/versions/9f30e205c308_add_body_html.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/migrations/versions/e829c8e46b47_add_comments.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirements.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MyWeb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -123,11 +46,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.1518325">
+            <state vertical-scroll-proportion="0.0">
               <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.104986876">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -166,7 +99,7 @@
       <file leaf-file-name="mybase.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/mybase.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.9302325">
+            <state vertical-scroll-proportion="0.0">
               <caret line="59" column="10" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
               <folding />
             </state>
@@ -205,16 +138,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="followers.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/main/templates/followers.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -233,7 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/auth/templates/email/unconfirmed.html" />
         <option value="$PROJECT_DIR$/app/auth/templates/email/unconfirmed.txt" />
         <option value="$PROJECT_DIR$/app/auth/templates/settings.html" />
         <option value="$PROJECT_DIR$/app/auth/templates/inform_base.html" />
@@ -284,6 +206,7 @@
         <option value="$PROJECT_DIR$/app/main/views.py" />
         <option value="$PROJECT_DIR$/app/models.py" />
         <option value="$PROJECT_DIR$/app/templates/mybase.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -323,6 +246,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -393,8 +318,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -681,26 +604,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1851" height="913" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22166388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22501396" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32845744" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293718" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3273196" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328877" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1391069" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44385028" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44518715" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -741,13 +664,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/flask_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="519" column="8" selection-start-line="519" selection-start-column="8" selection-end-line="519" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/decorators.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1028,7 +944,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1092,7 +1007,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/mybase.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.9302325">
+        <state vertical-scroll-proportion="0.0">
           <caret line="59" column="10" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
           <folding />
         </state>
@@ -1100,8 +1015,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1518325">
+        <state vertical-scroll-proportion="0.0">
           <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.104986876">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
