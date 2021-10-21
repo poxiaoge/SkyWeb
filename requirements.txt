@@ -4,7 +4,7 @@ aniso8601==1.1.0
 apt-xapian-index==0.45
 astroid==1.0.1
 attrs==15.2.0
-Babel==2.2.0
+Babel==2.9.1
 backports-abc==0.4
 backports.shutil-get-terminal-size==1.0.0
 backports.ssl-match-hostname==3.5.0.1
