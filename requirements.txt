@@ -65,7 +65,7 @@ jupyter-client==4.2.2
 jupyter-core==4.1.0
 lockfile==0.8
 logilab-common==0.61.0
-lxml==3.3.3
+lxml==4.6.5
 Mako==0.9.1
 Markdown==2.6.7
 MarkupSafe==0.23
