@@ -52,7 +52,7 @@ gevent-websocket==0.9.5
 greenlet==0.4.2
 gunicorn==19.6.0
 html5lib==0.999
-httpie==0.9.6
+httpie==3.1.0
 httplib2==0.8
 ipaddr==2.1.11
 ipykernel==4.3.1
