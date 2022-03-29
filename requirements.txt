@@ -84,7 +84,7 @@ oauthlib==0.6.1
 oneconf==0.3.7.14.4.1
 oslo.config==3.9.0
 PAM==0.4.2
-paramiko==1.10.1
+paramiko==2.10.1
 pathlib2==2.1.0
 pbr==1.8.1
 pep8==1.4.6
