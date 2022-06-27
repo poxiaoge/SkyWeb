@@ -114,7 +114,7 @@ pytz==2015.7
 pyxdg==0.25
 pyzmq==15.2.0
 queuelib==1.4.2
-reportlab==3.0
+reportlab==3.5.55
 repoze.lru==0.6
 requests==2.12.3
 Routes==2.0
