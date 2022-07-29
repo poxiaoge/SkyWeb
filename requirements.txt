@@ -120,7 +120,7 @@ requests==2.12.3
 Routes==2.0
 ryu==4.0
 scapy==2.2.0
-Scrapy==1.0.5
+Scrapy==2.6.2
 selenium==2.53.6
 service-identity==16.0.0
 sessioninstaller==0.0.0
