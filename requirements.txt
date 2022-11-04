@@ -135,7 +135,7 @@ system-service==0.1.6
 terminado==0.6
 tornado==4.3
 traitlets==4.2.1
-Twisted==13.2.0
+Twisted==22.10.0
 Twisted-Conch==13.2.0
 Twisted-Core==13.2.0
 Twisted-Lore==13.2.0
